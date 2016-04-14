@@ -150,6 +150,7 @@ add_library(iothub_client
 )
 linkSharedUtil(iothub_client)
 
+add_subdirectory(iothub_suri)
 add_subdirectory(samples)
 
 if(NOT IN_OPENWRT)
